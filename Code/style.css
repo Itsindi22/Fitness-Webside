@@ -1,0 +1,51 @@
+
+@font-face  {
+    font-family: 'pro dunex';
+    src:url(Fonts/pro-dunex-52272284/Pro\ Dunex\ Regular.ttf);
+
+}
+main {
+    margin-left:  20px;
+    margin-right:  20px;
+
+}
+body {
+    margin:0;
+}
+
+
+ .logo {
+    font-family:"pro dunex";
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+
+.navbar ul {
+    list-style-type: none;
+    background-color: black;
+    padding:0px;
+    margin:0px;
+    overflow: hidden;
+    
+
+}
+
+.navbar a {
+    color:white;
+    text-decoration: none;
+    padding:15px;
+    display:block;
+    text-align: center;
+}
+nav a:hover {
+
+   background-color:#2e2222;
+}
+.navbar a :hover {
+    background-color: aqua;
+}
+.navbar li {
+    float:left;
+}
